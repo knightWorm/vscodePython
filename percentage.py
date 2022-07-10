@@ -5,12 +5,11 @@
 # The function should return the price of the item after the discount has been applied. 
 # For example, if the price is 100 and the discount is 20, the function should return 80.
 
-
 def display(ins):
     print(ins)
 
 def calculate(x, y):
-    
+
     temp  = x - (x * (y/100))
 
     # display result
