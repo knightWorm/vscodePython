@@ -19,8 +19,12 @@ if __name__ == "__main__":
     # get user credit card 
     cn = input("Enter Credit Card Number: ")
 
+    if len(cn) > 16:
+        print("Invalid Input, Credit card numbers are 16 digits long!")
+    else:
+
     # create class instance 
-    p1  = _User(cn)
+        p1  = _User(cn)
 
     # print output 
-    p1.display()
+        p1.display()
